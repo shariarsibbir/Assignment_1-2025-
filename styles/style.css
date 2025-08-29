@@ -84,3 +84,40 @@ main .about-dev article {
     border: 2px solid aqua;
     border-radius: 20px;
 }
+/* Target Part */
+.target article{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    margin: 10px;
+    padding: 15px;
+}
+.target article .html {
+    margin: 10px;
+    padding: 60px 40px 40px;
+    border: 2px solid rgb(240, 240, 224);
+    border-radius: 15px;
+    background-color:rgb(249, 236, 220);
+    width: 364px;
+    height: 299px;
+}
+.target article .css {
+    margin: 10px;
+    padding: 60px 40px 40px;
+    border: 2px solid rgb(251, 251, 247);
+    border-radius: 15px;
+    background-color: rgb(171, 198, 247);
+    width: 364px;
+    height: 299px;
+}
+.target article .js {
+    margin: 10px;
+    padding: 60px 40px 40px;
+    border: 2px solid rgb(242, 242, 233);
+    border-radius: 15px;
+    background-color: rgb(247, 236, 220);
+    width: 364px;
+    height: 299px;
+}
